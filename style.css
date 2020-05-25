@@ -40,7 +40,8 @@
 
 .header {
   height: 6em;
-  background-color: #49423d;
+  background: url(https://sopov-danil.github.io/images/aside.png) no-repeat;
+  background-size: cover;
 }
 
 .head_img {
@@ -108,7 +109,6 @@ background-size: cover;
     padding: 0em 0%;
   }
   .head_img {
-    background: url(https://munister-v.github.io/img/Header.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     margin-right: auto;
