@@ -56,8 +56,9 @@
 }
 
 .footer {
-  background-color: Gold;
-  height: 50px;
+  height: 70px;
+  background: url(https://sopov-danil.github.io/images/header.jpg) no-repeat;
+  background-size: cover;
 }
 
 .aside {
@@ -67,20 +68,14 @@ background-size: cover;
 }
 
 .main {
-  background-color: DimGrey;
+  background-color: WHITE;
 }
 
 .m {
-  background-color: Gray;
+  background-color: BLACK;
 }
 
-.header,
-.main,
-.aside,
-.m,
-.footer {
-  border: solid 1px #49423d;
-}
+
 
 * {
   margin: 0;
@@ -98,7 +93,7 @@ background-size: cover;
 }
 
 
-/* Smartphones (вертикальная и горизонтальная) ----------- */
+/* АДАПТИВНЫЙ ДИЗАЙН ----------- */
 
 @media only screen and (min-width: 350px) and (max-width: 641px) {
   .grid-container {
