@@ -1,9 +1,61 @@
 
 
+/* ================== ГЛАВНЫЙ КОНТЕНТ */
+
+
+.bloginfo-txt {
+    line-height: 1.3em;
+    color:#F0E68C;
+    font-size:14px;
+    padding: 3% 7%;
+    text-align: justify; 	
+    color: WHITE;
+ }
+
+
+
+
+
+
+
+
+.text_polosa
+{
+background: BLACK;
+    height: 30px;
+    width: 86.67%;
+    margin-right: auto;
+    margin-left: 4%;
+    font-size: 1.2em;
+    color: WHITE;
+ padding: 2% 0%;
+}
+
+
+
+.text { 
+    text-indent: 20px;  
+    padding: 10px;
+    text-align: justify; /* Выравнивание по ширине */
+    
+    font-size:1.2em;
+    color: BLACK;
+   margin: 0 0 5px 0;
+	}	
+	
+
+
 /* ================== МЕНЮ */
 
+
+form
+{
+margin-left:1%;
+
+}
+
 .menu {
-    background: linear-gradient(to bottom, #000000 0%, #696960 100%);
+    background: linear-gradient(to bottom, #000000 0%, #696969 100%);
     height: 50px
 }
 
@@ -32,6 +84,43 @@
     display: block;
     padding: 0 30px;
     line-height: 50px;
+}
+
+
+h1 {
+  color: WHITE; 
+  
+}
+
+h3 
+{
+  color: WHITE; 
+  margin-left:10%;
+}
+
+a:link {
+  color: WHITE; 
+  
+}
+a:visited {
+  color: WHITE;
+}
+a:hover {
+  color: WHITE; 
+ 
+}
+a:active {
+  color: WHITE; 
+  
+}
+
+
+
+hr {
+height: 2px;
+width: 85%;
+margin-left:10%;
+background-color: white;
 }
 
 
@@ -91,6 +180,10 @@ background-size: cover;
   height: 100vh;
   grid-template-columns: 2fr 6fr 2fr 2fr;
 }
+
+
+
+
 
 
 /* АДАПТИВНЫЙ ДИЗАЙН ----------- */
