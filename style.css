@@ -1,27 +1,46 @@
 
 
-/* ================== */
+/* ================== МЕНЮ */
 
-.art-BlockContent-body {
-  justify-self: center;
-  z-index: 1;
-  padding: 11px;
+.menu {
+    background: linear-gradient(to bottom, #000000 0%, #696969 100%);
+    height: 50px
 }
 
-.art-BlockContent {
-  justify-self: center;
-  z-index: 0;
-  margin: 0 auto;
-  min-width: 1px;
-  min-height: 1px;
+.menu ul {
+    padding: 0;
 }
 
-.art-BlockContent-body ul {
-  list-style-type: none;
-  color: #B5B5B5;
-  margin: 0;
-  padding: 0;
+.menu ul:after {
+    clear: both;
+    display: table;
+    width: 100%;
+    height: 0;
+    content: ' ';
 }
+
+.menu li {
+    float: left;
+  
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    list-style: none;
+   
+}
+
+.menu li:hover {
+    background: url(https://help.gnome.org/users/gnome-help/stable/figures/preferences-desktop-accessibility-symbolic.svg) 7px center no-repeat #23BA15;
+}
+
+.menu a {
+    display: block;
+    padding: 0 30px;
+    line-height: 50px;
+}
+
+
+/* ================== ЗАГОЛОВОК СТРАНИЦЫ */
+
 
 .header {
   height: 6em;
@@ -29,7 +48,7 @@
 }
 
 .head_img {
-  background: url(https://munister-v.github.io/img/Header.jpg) no-repeat;
+  background: url(https://sopov-danil.github.io/images/header.jpg) no-repeat;
   background-size: cover;
   width: 66.67%;
   margin-right: auto;
