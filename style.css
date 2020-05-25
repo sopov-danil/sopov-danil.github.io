@@ -57,7 +57,7 @@
 
 .footer {
   height: 70px;
-  background: url(https://sopov-danil.github.io/images/header.jpg) no-repeat;
+  background: url(https://sopov-danil.github.io/images/aside.png) no-repeat;
   background-size: cover;
 }
 
@@ -114,15 +114,9 @@ background-size: cover;
   .aside {
     display: none;
   }
-  .art-BlockContent-body {
-    margin-right: auto;
-    justify-self: center;
-    margin-left: auto;
-    top: 0;
-  }
+ 
 }
 
-/* ================== */
 
 .block {
   display: flex;
