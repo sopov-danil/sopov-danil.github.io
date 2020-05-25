@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+<div class="page">
+  <div class="header">
+    <div class="head_img">
+      <h1> МОЙ САЙТ
+        <h1>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="aside">Left</div>
+    <div class="main">Main</div>
+    <div class="block">
+      <div class="m">
+      </div>
+      <div class="m">
+        <div class="art-BlockContent-body">
+          <ul>
+            <li class="cat-item cat-item-4"><a href="http://www.wpfree.ru/preview/?cat=4" title="Просмотреть все записи в рубрике WordPress">WordPress</a> (3)
+            </li>
+            <li class="cat-item cat-item-1"><a href="http://www.wpfree.ru/preview/?cat=1" title="Просмотреть все записи в рубрике Новости">Новости</a> (3)
+            </li>
+            <li class="cat-item cat-item-3"><a href="http://www.wpfree.ru/preview/?cat=3" title="Просмотреть все записи в рубрике Плагины">Плагины</a> (1)
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="m">Свежие комментарии</div>
+      <div class="m">Архивы</div>
+      <div class="m">Рубрики</div>
+      <div class="m">Мета</div>
+    </div>
+    <div class="aside">Right</div>
+  </div>
+  <div class="footer">Footer</div>
+</div>
+
+
+
+
+
+
+<style>
+
+/* ================== */
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block .m {
+  flex: 1;
+}
+
+
+/* ================== */
+
+.art-BlockContent-body {
+  justify-self: center;
+  z-index: 1;
+  padding: 11px;
+}
+
+.art-BlockContent {
+  justify-self: center;
+  z-index: 0;
+  margin: 0 auto;
+  min-width: 1px;
+  min-height: 1px;
+}
+
+.art-BlockContent-body ul {
+  list-style-type: none;
+  color: #B5B5B5;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 6em;
+  background-color: #49423d;
+}
+
+.head_img {
+  background: url(https://munister-v.github.io/img/Header.jpg) no-repeat;
+  background-size: cover;
+  width: 66.67%;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0;
+  height: 135px;
+  border-radius: 10px
+}
+
+.footer {
+  background-color: Gold;
+  height: 50px;
+}
+
+.aside {
+  background-color: #49423d;
+}
+
+.main {
+  background-color: DimGrey;
+}
+
+.m {
+  background-color: Gray;
+}
+
+.header,
+.main,
+.aside,
+.m,
+.footer {
+  border: solid 1px #49423d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 2fr 6fr 2fr 2fr;
+}
+
+
+/* Smartphones (вертикальная и горизонтальная) ----------- */
+
+@media only screen and (min-width: 350px) and (max-width: 641px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    height: 7em;
+    padding: 0em 0%;
+  }
+  .head_img {
+    background: url(https://munister-v.github.io/img/Header.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+    height: 120px;
+  }
+  .aside {
+    display: none;
+  }
+  .art-BlockContent-body {
+    margin-right: auto;
+    justify-self: center;
+    margin-left: auto;
+    top: 0;
+  }
+}
+
+</style>
+
+</html>	  
+	   
